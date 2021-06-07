@@ -1,0 +1,31 @@
+*{
+    background-color:grey;
+    
+}
+
+.claseheader{
+    display: flex;
+    justify-content:flex-start;
+    background-color: black;
+
+}
+
+h1{
+    background-color: black;
+    font-size: 4rem;
+    color: darkgoldenrod;
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: 2rem;
+
+}
+
+.claseimagen{
+    height: 250px;
+    background-color: black;
+}
+
+.fixed{
+    margin-top: 1rem; 
+    font-size: 2rem;
+    
+}

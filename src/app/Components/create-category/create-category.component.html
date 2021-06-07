@@ -1,0 +1,19 @@
+
+<form [formGroup]="createCategoryForm" (ngSubmit)="createCategory()">
+    <div class="form-row p-5 text-white">
+        <div class="form-group col-md-6">
+            <label for="gama">GAMA</label>
+            <input formControlName="gama" type="text" class="form-control" id="gama">
+        </div>
+        <div class="form-group col-md-6">
+            <label for="material">MATERIAL</label>
+            <input formControlName="material" type="email" class="form-control" id="material">
+
+        </div>
+        <div class="form-group col-md-6">
+            <label for="uso">USO</label>
+            <input formControlName="uso" type="email" class="form-control" id="uso">
+        </div>
+        <button class="text-white"> ENVIAR </button>
+    </div>
+</form>
